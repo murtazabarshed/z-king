@@ -1,0 +1,119 @@
+body{
+	background-color: #252527;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 1360px;
+	margin: 0 auto;
+}
+nav{
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+nav ul li{
+	display: inline;
+	font-family: arial;
+	margin-left: 20px;
+}
+nav ul li a{
+	color: #fafafa;
+	border: 1px solid transparent;
+	padding: 18px;
+}
+nav ul li.different{
+	border: 1px solid red;
+	background-color: red;
+	padding: 18px;
+}
+nav ul li a:hover{
+	border: 1px solid red;
+	background-color: red;
+	padding: 18px;
+}
+.bg{
+	background-color: #ffffff;
+	padding: 2%;
+}
+.logo{
+	float: left;
+}
+input{
+	float: right;
+	background-image: url('../img/search-dark.png');
+	background-repeat: no-repeat;
+    background-position: 94% center;
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #444444;
+    font-family: arial;
+    padding-left: 11px;
+    font-size: 18px;
+    color: #a9a9a9;
+}
+.slider img{
+	width: 100%;
+}
+.car{
+	margin-top: 2.625rem;
+}
+.car ul li{
+	float: left;
+	width: 25%;
+	margin-bottom: -5px;
+}
+.car ul li img{
+	width: 100%;
+}
+.service{
+	text-align: center;
+}
+.service h1{
+	margin-top: 20px;
+	font-size: 32px;
+	color: #333333;
+	font-family: arial;
+}
+.service p{
+	margin-top: 20px;
+	font-family: arial;
+	font-size: 15px;
+	color: #c6c6c6;
+}
+.parts{
+	margin-top: 30px;
+	width: 24%;
+	float: left;
+	margin-right: 1%;
+}
+.banquet{
+	text-align: center;
+}
+.banquet img{
+	width: 100%;
+}
+.banquet h1{
+	font-family: arial;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333; 
+}
+.banquet p{
+	color: #333333;
+	font-family: arial;
+	margin-top: 5px;
+}	
+.banquet button{
+	width: 6.75rem;
+	height: 2.625rem;
+	line-height: 2.625rem;
+	margin-top: 3rem;
+	border-radius: 1.875rem;
+	background-color: #f44336;
+	border: 2px solid #f44336;
+}
